@@ -1,5 +1,5 @@
 ## Local Outlier Probabilities
-implementing the article 'LoOP: Local Outlier Probabilities'
+Implementing the article 'LoOP: Local Outlier Probabilities'
 
 # Intrudction
 LoOP is outlier detection method.
