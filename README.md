@@ -2,12 +2,12 @@
 Implementing the article 'LoOP: Local Outlier Probabilities'.
 The article is attached under the name 'LoOP.pdf'
 # Intrudction
-LoOP is unsupervised outlier detection method which compute a scoring includes normalization to each point in the dataset mapped into the range [0,1].
-In this method  the score of abnormality of one sample is compared with the scores of its neighbors.
+LoOP is unsupervised outlier detection method which compute a scoring to each point in the dataset mapped into the range [0,1].
+The score of abnormality of one sample is compared with the scores of its neighbors.
 
 ![LoOP](https://user-images.githubusercontent.com/71435004/178737862-abe70e5c-5bf5-40aa-b5d2-9a04b5dfb778.jpeg)
 
-figure 1: LoOP with threshold 0.7, outliers(red) and regular points(blue). With the parameters neighbors=50, Lambda=3. 
+figure 1: LoOP with threshold 0.7, outliers (red) and regular points (blue). With the parameters: neighbors=50, Lambda=3. 
 # Discussion
 * The author uses ROC-AUC for an unbalanced dataset, other metrics, such as PR-AUC will demonstrate the contribution of the algorithm better.
 
